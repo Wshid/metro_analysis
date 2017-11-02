@@ -1,0 +1,112 @@
+[2017-06-21T11:25:54,815][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-06-21T11:25:55,041][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-06-21T11:25:55,269][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-06-21T11:27:56,498][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-06-21T11:27:56,604][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-06-21T15:44:50,829][FATAL][logstash.runner          ] The given configuration is invalid. Reason: Expected one of #, => at line 9, column 11 (byte 116) after input{
+    beats{
+        port => "5043"
+    }
+
+
+output{
+# elasticsearch { hosts => ["localhost:9200"] }
+    stdout
+[2017-06-21T15:46:29,990][FATAL][logstash.runner          ] The given configuration is invalid. Reason: Expected one of #, => at line 8, column 11 (byte 68) after input{
+    beats{
+        port => "5043"
+    }
+
+
+output{
+    stdout
+[2017-06-21T15:48:10,006][INFO ][logstash.runner          ] Using config.test_and_exit mode. Config Validation Result: OK. Exiting Logstash
+[2017-06-21T15:50:05,086][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-06-21T15:50:08,741][INFO ][logstash.inputs.beats    ] Beats inputs: Starting input listener {:address=>"0.0.0.0:5043"}
+[2017-06-21T15:50:09,242][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-06-21T15:50:09,808][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-06-21T15:52:17,745][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-06-21T15:52:17,836][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-06-21T15:52:22,795][WARN ][logstash.runner          ] Received shutdown signal, but pipeline is still waiting for in-flight events
+to be processed. Sending another ^C will force quit Logstash, but this may cause
+data loss.
+[2017-06-21T15:52:22,911][WARN ][logstash.shutdownwatcher ] {"inflight_count"=>0, "stalling_thread_info"=>{"other"=>[{"thread_id"=>25, "name"=>"[main]<beats", "current_call"=>"[...]/vendor/bundle/jruby/1.9/gems/logstash-input-beats-3.1.15-java/lib/logstash/inputs/beats.rb:196:in `run'"}, {"thread_id"=>19, "name"=>"[main]>worker0", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:136:in `synchronize'"}, {"thread_id"=>20, "name"=>"[main]>worker1", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:118:in `synchronize'"}, {"thread_id"=>21, "name"=>"[main]>worker2", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:124:in `synchronize'"}, {"thread_id"=>22, "name"=>"[main]>worker3", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:136:in `synchronize'"}]}}
+[2017-06-21T15:52:22,930][ERROR][logstash.shutdownwatcher ] The shutdown process appears to be stalled due to busy or blocked plugins. Check the logs for more information.
+[2017-06-21T15:55:51,537][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-06-21T15:55:54,797][INFO ][logstash.inputs.beats    ] Beats inputs: Starting input listener {:address=>"0.0.0.0:5043"}
+[2017-06-21T15:55:55,142][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-06-21T15:55:55,644][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-06-21T16:08:39,067][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-06-21T16:08:39,138][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-06-21T16:08:44,080][WARN ][logstash.runner          ] Received shutdown signal, but pipeline is still waiting for in-flight events
+to be processed. Sending another ^C will force quit Logstash, but this may cause
+data loss.
+[2017-06-21T16:08:44,213][WARN ][logstash.shutdownwatcher ] {"inflight_count"=>0, "stalling_thread_info"=>{"other"=>[{"thread_id"=>24, "name"=>"[main]<beats", "current_call"=>"[...]/vendor/bundle/jruby/1.9/gems/logstash-input-beats-3.1.15-java/lib/logstash/inputs/beats.rb:196:in `run'"}, {"thread_id"=>19, "name"=>"[main]>worker0", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:118:in `synchronize'"}, {"thread_id"=>20, "name"=>"[main]>worker1", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:136:in `synchronize'"}, {"thread_id"=>21, "name"=>"[main]>worker2", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:136:in `synchronize'"}, {"thread_id"=>22, "name"=>"[main]>worker3", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:136:in `synchronize'"}]}}
+[2017-06-21T16:08:44,229][ERROR][logstash.shutdownwatcher ] The shutdown process appears to be stalled due to busy or blocked plugins. Check the logs for more information.
+[2017-06-21T16:14:44,080][ERROR][logstash.pipeline        ] Error registering plugin {:plugin=>"#<LogStash::FilterDelegator:0x58b52e3a @id=\"d173e93d1190e05ba65141d19ff546426cdca7ad-2\", @klass=LogStash::Filters::Grok, @metric_events=#<LogStash::Instrument::NamespacedMetric:0x34737395 @metric=#<LogStash::Instrument::Metric:0x2e471e5 @collector=#<LogStash::Instrument::Collector:0xfeb887 @agent=nil, @metric_store=#<LogStash::Instrument::MetricStore:0x714b925c @store=#<Concurrent::Map:0x5e8bb83b @default_proc=nil>, @structured_lookup_mutex=#<Mutex:0x7fc19156>, @fast_lookup=#<Concurrent::Map:0xa8e34a9 @default_proc=nil>>>>, @namespace_name=[:stats, :pipelines, :main, :plugins, :filters, :\"d173e93d1190e05ba65141d19ff546426cdca7ad-2\", :events]>, @logger=#<LogStash::Logging::Logger:0x2433a072 @logger=#<Java::OrgApacheLoggingLog4jCore::Logger:0x4a793129>>, @filter=<LogStash::Filters::Grok match=>{\"message\"=>\"%{COMBINEDPATCHLOG}\"}, id=>\"d173e93d1190e05ba65141d19ff546426cdca7ad-2\", enable_metric=>true, periodic_flush=>false, patterns_files_glob=>\"*\", break_on_match=>true, named_captures_only=>true, keep_empty_captures=>false, tag_on_failure=>[\"_grokparsefailure\"], timeout_millis=>30000, tag_on_timeout=>\"_groktimeout\">>", :error=>"pattern %{COMBINEDPATCHLOG} not defined"}
+[2017-06-21T16:14:44,177][ERROR][logstash.agent           ] Pipeline aborted due to error {:exception=>#<Grok::PatternError: pattern %{COMBINEDPATCHLOG} not defined>, :backtrace=>["/usr/local/logstash/vendor/bundle/jruby/1.9/gems/jls-grok-0.11.4/lib/grok-pure.rb:123:in `compile'", "org/jruby/RubyKernel.java:1479:in `loop'", "/usr/local/logstash/vendor/bundle/jruby/1.9/gems/jls-grok-0.11.4/lib/grok-pure.rb:93:in `compile'", "/usr/local/logstash/vendor/bundle/jruby/1.9/gems/logstash-filter-grok-3.4.0/lib/logstash/filters/grok.rb:286:in `register'", "org/jruby/RubyArray.java:1613:in `each'", "/usr/local/logstash/vendor/bundle/jruby/1.9/gems/logstash-filter-grok-3.4.0/lib/logstash/filters/grok.rb:280:in `register'", "org/jruby/RubyHash.java:1342:in `each'", "/usr/local/logstash/vendor/bundle/jruby/1.9/gems/logstash-filter-grok-3.4.0/lib/logstash/filters/grok.rb:275:in `register'", "/usr/local/logstash/logstash-core/lib/logstash/pipeline.rb:268:in `register_plugin'", "/usr/local/logstash/logstash-core/lib/logstash/pipeline.rb:279:in `register_plugins'", "org/jruby/RubyArray.java:1613:in `each'", "/usr/local/logstash/logstash-core/lib/logstash/pipeline.rb:279:in `register_plugins'", "/usr/local/logstash/logstash-core/lib/logstash/pipeline.rb:289:in `start_workers'", "/usr/local/logstash/logstash-core/lib/logstash/pipeline.rb:214:in `run'", "/usr/local/logstash/logstash-core/lib/logstash/agent.rb:398:in `start_pipeline'"]}
+[2017-06-21T16:14:44,510][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-06-21T16:17:03,243][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-06-21T16:17:03,290][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-06-21T16:20:41,260][ERROR][logstash.pipeline        ] Error registering plugin {:plugin=>"#<LogStash::FilterDelegator:0x2ac795b7 @id=\"6cd8f02202e0044f83efe6d95101b9366a739190-2\", @klass=LogStash::Filters::Grok, @metric_events=#<LogStash::Instrument::NamespacedMetric:0x469a519b @metric=#<LogStash::Instrument::Metric:0x2932143b @collector=#<LogStash::Instrument::Collector:0xe5d6611 @agent=nil, @metric_store=#<LogStash::Instrument::MetricStore:0x18213040 @store=#<Concurrent::Map:0xca3bc56 @default_proc=nil>, @structured_lookup_mutex=#<Mutex:0x3509e235>, @fast_lookup=#<Concurrent::Map:0x5001676b @default_proc=nil>>>>, @namespace_name=[:stats, :pipelines, :main, :plugins, :filters, :\"6cd8f02202e0044f83efe6d95101b9366a739190-2\", :events]>, @logger=#<LogStash::Logging::Logger:0x5063ab67 @logger=#<Java::OrgApacheLoggingLog4jCore::Logger:0x4a793129>>, @filter=<LogStash::Filters::Grok match=>{\"message\"=>\"%{COMBINEDPACHELOG}\"}, id=>\"6cd8f02202e0044f83efe6d95101b9366a739190-2\", enable_metric=>true, periodic_flush=>false, patterns_files_glob=>\"*\", break_on_match=>true, named_captures_only=>true, keep_empty_captures=>false, tag_on_failure=>[\"_grokparsefailure\"], timeout_millis=>30000, tag_on_timeout=>\"_groktimeout\">>", :error=>"pattern %{COMBINEDPACHELOG} not defined"}
+[2017-06-21T16:20:41,348][ERROR][logstash.agent           ] Pipeline aborted due to error {:exception=>#<Grok::PatternError: pattern %{COMBINEDPACHELOG} not defined>, :backtrace=>["/usr/local/logstash/vendor/bundle/jruby/1.9/gems/jls-grok-0.11.4/lib/grok-pure.rb:123:in `compile'", "org/jruby/RubyKernel.java:1479:in `loop'", "/usr/local/logstash/vendor/bundle/jruby/1.9/gems/jls-grok-0.11.4/lib/grok-pure.rb:93:in `compile'", "/usr/local/logstash/vendor/bundle/jruby/1.9/gems/logstash-filter-grok-3.4.0/lib/logstash/filters/grok.rb:286:in `register'", "org/jruby/RubyArray.java:1613:in `each'", "/usr/local/logstash/vendor/bundle/jruby/1.9/gems/logstash-filter-grok-3.4.0/lib/logstash/filters/grok.rb:280:in `register'", "org/jruby/RubyHash.java:1342:in `each'", "/usr/local/logstash/vendor/bundle/jruby/1.9/gems/logstash-filter-grok-3.4.0/lib/logstash/filters/grok.rb:275:in `register'", "/usr/local/logstash/logstash-core/lib/logstash/pipeline.rb:268:in `register_plugin'", "/usr/local/logstash/logstash-core/lib/logstash/pipeline.rb:279:in `register_plugins'", "org/jruby/RubyArray.java:1613:in `each'", "/usr/local/logstash/logstash-core/lib/logstash/pipeline.rb:279:in `register_plugins'", "/usr/local/logstash/logstash-core/lib/logstash/pipeline.rb:289:in `start_workers'", "/usr/local/logstash/logstash-core/lib/logstash/pipeline.rb:214:in `run'", "/usr/local/logstash/logstash-core/lib/logstash/agent.rb:398:in `start_pipeline'"]}
+[2017-06-21T16:20:41,664][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-06-21T16:21:47,088][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-06-21T16:21:47,133][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-06-21T16:23:25,550][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-06-21T16:23:28,599][INFO ][logstash.inputs.beats    ] Beats inputs: Starting input listener {:address=>"0.0.0.0:5043"}
+[2017-06-21T16:23:28,985][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-06-21T16:23:29,409][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-06-21T16:24:28,293][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-06-21T16:24:28,351][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-06-21T16:24:33,305][WARN ][logstash.runner          ] Received shutdown signal, but pipeline is still waiting for in-flight events
+to be processed. Sending another ^C will force quit Logstash, but this may cause
+data loss.
+[2017-06-21T16:24:33,421][WARN ][logstash.shutdownwatcher ] {"inflight_count"=>0, "stalling_thread_info"=>{"other"=>[{"thread_id"=>25, "name"=>"[main]<beats", "current_call"=>"[...]/vendor/bundle/jruby/1.9/gems/logstash-input-beats-3.1.15-java/lib/logstash/inputs/beats.rb:196:in `run'"}], ["LogStash::Filters::Grok", {"match"=>{"message"=>"%{COMBINEDAPACHELOG}"}, "id"=>"57198f99ffd7f8b0db5a01d284a13478995ea20b-2"}]=>[{"thread_id"=>20, "name"=>"[main]>worker0", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:124:in `synchronize'"}, {"thread_id"=>21, "name"=>"[main]>worker1", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:118:in `synchronize'"}, {"thread_id"=>22, "name"=>"[main]>worker2", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:124:in `synchronize'"}, {"thread_id"=>23, "name"=>"[main]>worker3", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:136:in `synchronize'"}]}}
+[2017-06-21T16:24:33,433][ERROR][logstash.shutdownwatcher ] The shutdown process appears to be stalled due to busy or blocked plugins. Check the logs for more information.
+[2017-06-21T16:29:33,426][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-06-21T16:29:36,463][INFO ][logstash.inputs.beats    ] Beats inputs: Starting input listener {:address=>"0.0.0.0:5043"}
+[2017-06-21T16:29:36,870][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-06-21T16:29:37,217][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-06-21T16:31:15,255][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-06-21T16:31:15,331][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-06-21T16:31:17,862][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2017-06-21T16:31:19,225][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2017-06-21T16:31:20,274][WARN ][logstash.runner          ] Received shutdown signal, but pipeline is still waiting for in-flight events
+to be processed. Sending another ^C will force quit Logstash, but this may cause
+data loss.
+[2017-06-21T16:31:20,422][WARN ][logstash.shutdownwatcher ] {"inflight_count"=>0, "stalling_thread_info"=>{"other"=>[{"thread_id"=>28, "name"=>"[main]<beats", "current_call"=>"[...]/vendor/bundle/jruby/1.9/gems/logstash-input-beats-3.1.15-java/lib/logstash/inputs/beats.rb:196:in `run'"}], ["LogStash::Filters::Grok", {"match"=>{"message"=>"%{COMBINEDAPACHELOG}"}, "id"=>"57198f99ffd7f8b0db5a01d284a13478995ea20b-2"}]=>[{"thread_id"=>20, "name"=>"[main]>worker0", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:136:in `synchronize'"}, {"thread_id"=>21, "name"=>"[main]>worker1", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:124:in `synchronize'"}, {"thread_id"=>22, "name"=>"[main]>worker2", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:136:in `synchronize'"}, {"thread_id"=>23, "name"=>"[main]>worker3", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:136:in `synchronize'"}]}}
+[2017-06-21T16:35:38,198][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-06-21T16:35:42,871][INFO ][logstash.inputs.beats    ] Beats inputs: Starting input listener {:address=>"0.0.0.0:5043"}
+[2017-06-21T16:35:43,282][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-06-21T16:35:43,829][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-06-21T16:37:03,125][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-06-21T16:37:03,202][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-06-21T16:37:07,333][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2017-06-21T16:40:08,996][INFO ][logstash.filters.geoip   ] Using geoip database {:path=>"/usr/local/logstash/vendor/bundle/jruby/1.9/gems/logstash-filter-geoip-4.0.4-java/vendor/GeoLite2-City.mmdb"}
+[2017-06-21T16:40:09,401][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-06-21T16:40:12,329][INFO ][logstash.inputs.beats    ] Beats inputs: Starting input listener {:address=>"0.0.0.0:5043"}
+[2017-06-21T16:40:12,678][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-06-21T16:40:13,000][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-06-21T16:43:18,894][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-06-21T16:43:18,958][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-06-21T16:43:21,952][FATAL][logstash.runner          ] SIGINT received. Terminating immediately..
+[2017-06-21T16:46:28,769][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://localhost:9200/]}}
+[2017-06-21T16:46:28,818][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://localhost:9200/, :path=>"/"}
+[2017-06-21T16:46:29,824][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>#<URI::HTTP:0x3b724331 URL:http://localhost:9200/>}
+[2017-06-21T16:46:29,830][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2017-06-21T16:46:30,275][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>50001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"_all"=>{"enabled"=>true, "norms"=>false}, "dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword"}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date", "include_in_all"=>false}, "@version"=>{"type"=>"keyword", "include_in_all"=>false}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2017-06-21T16:46:30,313][INFO ][logstash.outputs.elasticsearch] Installing elasticsearch template to _template/logstash
+[2017-06-21T16:46:30,880][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>[#<URI::Generic:0x4510d466 URL://localhost:9200>]}
+[2017-06-21T16:46:31,313][INFO ][logstash.filters.geoip   ] Using geoip database {:path=>"/usr/local/logstash/vendor/bundle/jruby/1.9/gems/logstash-filter-geoip-4.0.4-java/vendor/GeoLite2-City.mmdb"}
+[2017-06-21T16:46:31,592][INFO ][logstash.pipeline        ] Starting pipeline {"id"=>"main", "pipeline.workers"=>4, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>5, "pipeline.max_inflight"=>500}
+[2017-06-21T16:46:34,233][INFO ][logstash.inputs.beats    ] Beats inputs: Starting input listener {:address=>"0.0.0.0:5043"}
+[2017-06-21T16:46:34,589][INFO ][logstash.pipeline        ] Pipeline main started
+[2017-06-21T16:46:34,929][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2017-06-21T16:51:14,367][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2017-06-21T16:51:14,434][WARN ][logstash.agent           ] stopping pipeline {:id=>"main"}
+[2017-06-21T16:51:19,395][WARN ][logstash.runner          ] Received shutdown signal, but pipeline is still waiting for in-flight events
+to be processed. Sending another ^C will force quit Logstash, but this may cause
+data loss.
+[2017-06-21T16:51:19,542][WARN ][logstash.shutdownwatcher ] {"inflight_count"=>0, "stalling_thread_info"=>{"other"=>[{"thread_id"=>30, "name"=>"[main]<beats", "current_call"=>"[...]/vendor/bundle/jruby/1.9/gems/logstash-input-beats-3.1.15-java/lib/logstash/inputs/beats.rb:196:in `run'"}], ["LogStash::Filters::GeoIP", {"source"=>"clientip", "id"=>"97e96f86a3daf35a859f4a96fe5858dfda943b0b-3"}]=>[{"thread_id"=>24, "name"=>"[main]>worker0", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:118:in `synchronize'"}, {"thread_id"=>25, "name"=>"[main]>worker1", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:136:in `synchronize'"}, {"thread_id"=>26, "name"=>"[main]>worker2", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:136:in `synchronize'"}, {"thread_id"=>27, "name"=>"[main]>worker3", "current_call"=>"[...]/logstash-core/lib/logstash/util/wrapped_synchronous_queue.rb:136:in `synchronize'"}]}}
+[2017-06-21T16:51:19,553][ERROR][logstash.shutdownwatcher ] The shutdown process appears to be stalled due to busy or blocked plugins. Check the logs for more information.

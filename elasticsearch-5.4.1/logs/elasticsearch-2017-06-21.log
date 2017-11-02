@@ -1,0 +1,99 @@
+[2017-06-21T11:24:29,057][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-21T11:24:29,387][INFO ][o.e.e.NodeEnvironment    ] [MK5WCVO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [47.5gb], net total_space [58.8gb], spins? [possibly], types [ext4]
+[2017-06-21T11:24:29,387][INFO ][o.e.e.NodeEnvironment    ] [MK5WCVO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-06-21T11:24:29,484][INFO ][o.e.n.Node               ] node name [MK5WCVO] derived from node ID [MK5WCVOCQ1ejo1jKafY0qA]; set [node.name] to override
+[2017-06-21T11:24:29,484][INFO ][o.e.n.Node               ] version[5.4.1], pid[3201], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.10.0-19-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-06-21T11:24:29,484][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/usr/local/elastic]
+[2017-06-21T11:24:31,360][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [aggs-matrix-stats]
+[2017-06-21T11:24:31,360][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [ingest-common]
+[2017-06-21T11:24:31,360][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [lang-expression]
+[2017-06-21T11:24:31,360][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [lang-groovy]
+[2017-06-21T11:24:31,361][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [lang-mustache]
+[2017-06-21T11:24:31,361][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [lang-painless]
+[2017-06-21T11:24:31,361][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [percolator]
+[2017-06-21T11:24:31,361][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [reindex]
+[2017-06-21T11:24:31,361][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [transport-netty3]
+[2017-06-21T11:24:31,361][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [transport-netty4]
+[2017-06-21T11:24:31,362][INFO ][o.e.p.PluginsService     ] [MK5WCVO] no plugins loaded
+[2017-06-21T11:24:34,788][INFO ][o.e.d.DiscoveryModule    ] [MK5WCVO] using discovery type [zen]
+[2017-06-21T11:24:35,631][INFO ][o.e.n.Node               ] initialized
+[2017-06-21T11:24:35,631][INFO ][o.e.n.Node               ] [MK5WCVO] starting ...
+[2017-06-21T11:24:36,009][INFO ][o.e.t.TransportService   ] [MK5WCVO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-06-21T11:24:36,015][WARN ][o.e.b.BootstrapChecks    ] [MK5WCVO] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2017-06-21T11:24:36,015][WARN ][o.e.b.BootstrapChecks    ] [MK5WCVO] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2017-06-21T11:24:39,105][INFO ][o.e.c.s.ClusterService   ] [MK5WCVO] new_master {MK5WCVO}{MK5WCVOCQ1ejo1jKafY0qA}{qIOYlUikTaaF0nqkn0UF8g}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-21T11:24:39,203][INFO ][o.e.h.n.Netty4HttpServerTransport] [MK5WCVO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-06-21T11:24:39,211][INFO ][o.e.n.Node               ] [MK5WCVO] started
+[2017-06-21T11:24:39,470][INFO ][o.e.g.GatewayService     ] [MK5WCVO] recovered [1] indices into cluster_state
+[2017-06-21T11:24:39,822][INFO ][o.e.c.r.a.AllocationService] [MK5WCVO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2017-06-21T15:36:08,126][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-21T15:36:09,242][INFO ][o.e.e.NodeEnvironment    ] [MK5WCVO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [47.5gb], net total_space [58.8gb], spins? [possibly], types [ext4]
+[2017-06-21T15:36:09,243][INFO ][o.e.e.NodeEnvironment    ] [MK5WCVO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-06-21T15:36:09,376][INFO ][o.e.n.Node               ] node name [MK5WCVO] derived from node ID [MK5WCVOCQ1ejo1jKafY0qA]; set [node.name] to override
+[2017-06-21T15:36:09,377][INFO ][o.e.n.Node               ] version[5.4.1], pid[2106], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.10.0-19-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-06-21T15:36:09,377][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/usr/local/elastic]
+[2017-06-21T15:36:16,716][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [aggs-matrix-stats]
+[2017-06-21T15:36:16,718][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [ingest-common]
+[2017-06-21T15:36:16,718][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [lang-expression]
+[2017-06-21T15:36:16,719][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [lang-groovy]
+[2017-06-21T15:36:16,719][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [lang-mustache]
+[2017-06-21T15:36:16,720][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [lang-painless]
+[2017-06-21T15:36:16,720][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [percolator]
+[2017-06-21T15:36:16,721][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [reindex]
+[2017-06-21T15:36:16,721][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [transport-netty3]
+[2017-06-21T15:36:16,722][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [transport-netty4]
+[2017-06-21T15:36:16,730][INFO ][o.e.p.PluginsService     ] [MK5WCVO] no plugins loaded
+[2017-06-21T15:36:33,995][INFO ][o.e.d.DiscoveryModule    ] [MK5WCVO] using discovery type [zen]
+[2017-06-21T15:36:39,738][INFO ][o.e.n.Node               ] initialized
+[2017-06-21T15:36:39,739][INFO ][o.e.n.Node               ] [MK5WCVO] starting ...
+[2017-06-21T15:36:40,725][WARN ][i.n.u.i.MacAddressUtil   ] Failed to find a usable hardware address from the network interfaces; using random bytes: bb:cb:fe:c0:6d:6e:d8:35
+[2017-06-21T15:36:41,499][INFO ][o.e.t.TransportService   ] [MK5WCVO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-06-21T15:36:41,608][WARN ][o.e.b.BootstrapChecks    ] [MK5WCVO] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2017-06-21T15:36:41,608][WARN ][o.e.b.BootstrapChecks    ] [MK5WCVO] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2017-06-21T15:36:45,167][INFO ][o.e.c.s.ClusterService   ] [MK5WCVO] new_master {MK5WCVO}{MK5WCVOCQ1ejo1jKafY0qA}{hjKVzuaRTpOFuseN6ckYuQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-21T15:36:45,374][INFO ][o.e.h.n.Netty4HttpServerTransport] [MK5WCVO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-06-21T15:36:45,417][INFO ][o.e.n.Node               ] [MK5WCVO] started
+[2017-06-21T15:36:46,743][INFO ][o.e.g.GatewayService     ] [MK5WCVO] recovered [1] indices into cluster_state
+[2017-06-21T15:36:49,045][INFO ][o.e.c.r.a.AllocationService] [MK5WCVO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0]] ...]).
+[2017-06-21T15:37:58,282][INFO ][o.e.c.m.MetaDataCreateIndexService] [MK5WCVO] [filebeat-2017.06.21] creating index, cause [auto(bulk api)], templates [filebeat], shards [5]/[1], mappings [_default_]
+[2017-06-21T15:37:59,304][INFO ][o.e.c.m.MetaDataMappingService] [MK5WCVO] [filebeat-2017.06.21/bjDpR0guStiffYA6C7XN6A] create_mapping [log]
+[2017-06-21T16:10:35,501][INFO ][o.e.n.Node               ] [MK5WCVO] stopping ...
+[2017-06-21T16:10:35,766][INFO ][o.e.n.Node               ] [MK5WCVO] stopped
+[2017-06-21T16:10:35,768][INFO ][o.e.n.Node               ] [MK5WCVO] closing ...
+[2017-06-21T16:10:35,905][INFO ][o.e.n.Node               ] [MK5WCVO] closed
+[2017-06-21T16:10:52,625][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-21T16:10:53,921][INFO ][o.e.e.NodeEnvironment    ] [MK5WCVO] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [47.5gb], net total_space [58.8gb], spins? [possibly], types [ext4]
+[2017-06-21T16:10:53,924][INFO ][o.e.e.NodeEnvironment    ] [MK5WCVO] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-06-21T16:10:54,141][INFO ][o.e.n.Node               ] node name [MK5WCVO] derived from node ID [MK5WCVOCQ1ejo1jKafY0qA]; set [node.name] to override
+[2017-06-21T16:10:54,142][INFO ][o.e.n.Node               ] version[5.4.1], pid[3221], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.10.0-19-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-06-21T16:10:54,143][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/usr/local/elastic]
+[2017-06-21T16:11:01,568][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [aggs-matrix-stats]
+[2017-06-21T16:11:01,569][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [ingest-common]
+[2017-06-21T16:11:01,570][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [lang-expression]
+[2017-06-21T16:11:01,571][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [lang-groovy]
+[2017-06-21T16:11:01,572][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [lang-mustache]
+[2017-06-21T16:11:01,572][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [lang-painless]
+[2017-06-21T16:11:01,572][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [percolator]
+[2017-06-21T16:11:01,573][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [reindex]
+[2017-06-21T16:11:01,573][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [transport-netty3]
+[2017-06-21T16:11:01,574][INFO ][o.e.p.PluginsService     ] [MK5WCVO] loaded module [transport-netty4]
+[2017-06-21T16:11:01,579][INFO ][o.e.p.PluginsService     ] [MK5WCVO] no plugins loaded
+[2017-06-21T16:11:17,099][INFO ][o.e.d.DiscoveryModule    ] [MK5WCVO] using discovery type [zen]
+[2017-06-21T16:11:21,469][INFO ][o.e.n.Node               ] initialized
+[2017-06-21T16:11:21,470][INFO ][o.e.n.Node               ] [MK5WCVO] starting ...
+[2017-06-21T16:11:22,326][WARN ][i.n.u.i.MacAddressUtil   ] Failed to find a usable hardware address from the network interfaces; using random bytes: 6b:24:00:c1:0f:19:09:3f
+[2017-06-21T16:11:23,017][INFO ][o.e.t.TransportService   ] [MK5WCVO] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-06-21T16:11:23,131][WARN ][o.e.b.BootstrapChecks    ] [MK5WCVO] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2017-06-21T16:11:23,132][WARN ][o.e.b.BootstrapChecks    ] [MK5WCVO] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2017-06-21T16:11:26,677][INFO ][o.e.c.s.ClusterService   ] [MK5WCVO] new_master {MK5WCVO}{MK5WCVOCQ1ejo1jKafY0qA}{pra6_Gt1RMu8zht9qd86ww}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-21T16:11:26,957][INFO ][o.e.h.n.Netty4HttpServerTransport] [MK5WCVO] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-06-21T16:11:27,015][INFO ][o.e.n.Node               ] [MK5WCVO] started
+[2017-06-21T16:11:28,687][INFO ][o.e.g.GatewayService     ] [MK5WCVO] recovered [2] indices into cluster_state
+[2017-06-21T16:11:31,931][INFO ][o.e.c.r.a.AllocationService] [MK5WCVO] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.kibana][0], [filebeat-2017.06.21][4]] ...]).
+[2017-06-21T16:46:54,822][INFO ][o.e.c.m.MetaDataCreateIndexService] [MK5WCVO] [logstash-2017.06.21] creating index, cause [auto(bulk api)], templates [logstash], shards [5]/[1], mappings [_default_]
+[2017-06-21T16:46:56,129][INFO ][o.e.c.m.MetaDataMappingService] [MK5WCVO] [logstash-2017.06.21/yz_rui9DQKqnv_T0RPctnw] create_mapping [log]
+[2017-06-21T16:46:57,030][INFO ][o.e.c.m.MetaDataMappingService] [MK5WCVO] [logstash-2017.06.21/yz_rui9DQKqnv_T0RPctnw] update_mapping [log]
+[2017-06-21T16:51:26,225][INFO ][o.e.n.Node               ] [MK5WCVO] stopping ...
+[2017-06-21T16:51:28,625][INFO ][o.e.n.Node               ] [MK5WCVO] stopped
+[2017-06-21T16:51:28,626][INFO ][o.e.n.Node               ] [MK5WCVO] closing ...
+[2017-06-21T16:51:28,992][INFO ][o.e.n.Node               ] [MK5WCVO] closed

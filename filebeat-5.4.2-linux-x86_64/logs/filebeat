@@ -1,0 +1,127 @@
+2017-06-27T23:42:23+09:00 INFO Starting Registrar
+2017-06-27T23:42:23+09:00 INFO Start sending events to output
+2017-06-27T23:42:23+09:00 INFO Metrics logging every 30s
+2017-06-27T23:42:23+09:00 INFO Prospector with previous states loaded: 1
+2017-06-27T23:42:23+09:00 INFO Starting prospector of type: log; id: 2054619975788661416 
+2017-06-27T23:42:23+09:00 INFO Loading and starting Prospectors completed. Enabled prospectors: 1
+2017-06-27T23:42:23+09:00 INFO Starting spooler: spool_size: 2048; idle_timeout: 5s
+2017-06-27T23:42:23+09:00 INFO Harvester started for file: /home/wshid/desktop/1702_ELK_08.csv
+2017-06-27T23:42:23+09:00 ERR Connecting error publishing events (retrying): dial tcp 127.0.0.1:5044: getsockopt: connection refused
+2017-06-27T23:42:24+09:00 ERR Connecting error publishing events (retrying): dial tcp 127.0.0.1:5044: getsockopt: connection refused
+2017-06-27T23:42:26+09:00 ERR Connecting error publishing events (retrying): dial tcp 127.0.0.1:5044: getsockopt: connection refused
+2017-06-27T23:42:30+09:00 ERR Connecting error publishing events (retrying): dial tcp 127.0.0.1:5044: getsockopt: connection refused
+2017-06-27T23:42:38+09:00 ERR Connecting error publishing events (retrying): dial tcp 127.0.0.1:5044: getsockopt: connection refused
+2017-06-27T23:42:53+09:00 INFO Non-zero metrics in the last 30s: filebeat.harvester.open_files=1 filebeat.harvester.running=1 filebeat.harvester.started=1 libbeat.publisher.published_events=2046
+2017-06-27T23:42:54+09:00 ERR Connecting error publishing events (retrying): dial tcp 127.0.0.1:5044: getsockopt: connection refused
+2017-06-27T23:43:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-27T23:43:53+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=8 libbeat.logstash.publish.read_bytes=126 libbeat.logstash.publish.write_bytes=502288 libbeat.logstash.published_and_acked_events=14334 libbeat.publisher.published_events=14336 publish.events=14336 registrar.states.current=1 registrar.states.update=14336 registrar.writes=7
+2017-06-27T23:44:23+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=23 libbeat.logstash.publish.read_bytes=138 libbeat.logstash.publish.write_bytes=1429918 libbeat.logstash.published_and_acked_events=47104 libbeat.publisher.published_events=47104 publish.events=47104 registrar.states.update=47104 registrar.writes=23
+2017-06-27T23:44:53+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=25 libbeat.logstash.publish.read_bytes=150 libbeat.logstash.publish.write_bytes=1561216 libbeat.logstash.published_and_acked_events=51200 libbeat.publisher.published_events=51200 publish.events=51200 registrar.states.update=51200 registrar.writes=25
+2017-06-27T23:45:23+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=16 libbeat.logstash.publish.read_bytes=96 libbeat.logstash.publish.write_bytes=998922 libbeat.logstash.published_and_acked_events=32768 libbeat.publisher.published_events=32768 publish.events=32768 registrar.states.update=32768 registrar.writes=16
+2017-06-27T23:45:53+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=15 libbeat.logstash.publish.read_bytes=90 libbeat.logstash.publish.write_bytes=935368 libbeat.logstash.published_and_acked_events=30720 libbeat.publisher.published_events=30720 publish.events=30720 registrar.states.update=30720 registrar.writes=15
+2017-06-27T23:46:23+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=18 libbeat.logstash.publish.read_bytes=108 libbeat.logstash.publish.write_bytes=1125117 libbeat.logstash.published_and_acked_events=36864 libbeat.publisher.published_events=36864 publish.events=36864 registrar.states.update=36864 registrar.writes=18
+2017-06-27T23:46:53+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=16 libbeat.logstash.publish.read_bytes=96 libbeat.logstash.publish.write_bytes=1002604 libbeat.logstash.published_and_acked_events=32768 libbeat.publisher.published_events=32768 publish.events=32768 registrar.states.update=32768 registrar.writes=16
+2017-06-27T23:47:23+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=20 libbeat.logstash.publish.read_bytes=120 libbeat.logstash.publish.write_bytes=1255617 libbeat.logstash.published_and_acked_events=40960 libbeat.publisher.published_events=40960 publish.events=40960 registrar.states.update=40960 registrar.writes=20
+2017-06-27T23:47:54+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=14 libbeat.logstash.publish.read_bytes=84 libbeat.logstash.publish.write_bytes=873904 libbeat.logstash.published_and_acked_events=28672 libbeat.publisher.published_events=28672 publish.events=28672 registrar.states.update=28672 registrar.writes=14
+2017-06-27T23:48:23+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=18 libbeat.logstash.publish.read_bytes=108 libbeat.logstash.publish.write_bytes=1121972 libbeat.logstash.published_and_acked_events=36864 libbeat.publisher.published_events=36864 publish.events=36864 registrar.states.update=36864 registrar.writes=18
+2017-06-27T23:48:53+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=19 libbeat.logstash.publish.read_bytes=114 libbeat.logstash.publish.write_bytes=1190484 libbeat.logstash.published_and_acked_events=38912 libbeat.publisher.published_events=38912 publish.events=38912 registrar.states.update=38912 registrar.writes=19
+2017-06-27T23:49:23+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=14 libbeat.logstash.publish.read_bytes=84 libbeat.logstash.publish.write_bytes=873462 libbeat.logstash.published_and_acked_events=28672 libbeat.publisher.published_events=28672 publish.events=28672 registrar.states.update=28672 registrar.writes=14
+2017-06-27T23:49:53+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=16 libbeat.logstash.publish.read_bytes=96 libbeat.logstash.publish.write_bytes=999820 libbeat.logstash.published_and_acked_events=32768 libbeat.publisher.published_events=32768 publish.events=32768 registrar.states.update=32768 registrar.writes=16
+2017-06-27T23:50:23+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=17 libbeat.logstash.publish.read_bytes=102 libbeat.logstash.publish.write_bytes=1061764 libbeat.logstash.published_and_acked_events=34816 libbeat.publisher.published_events=34816 publish.events=34816 registrar.states.update=34816 registrar.writes=17
+2017-06-27T23:50:53+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=20 libbeat.logstash.publish.read_bytes=120 libbeat.logstash.publish.write_bytes=1252137 libbeat.logstash.published_and_acked_events=40960 libbeat.publisher.published_events=40960 publish.events=40960 registrar.states.update=40960 registrar.writes=20
+2017-06-27T23:51:23+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=25 libbeat.logstash.publish.read_bytes=150 libbeat.logstash.publish.write_bytes=1560160 libbeat.logstash.published_and_acked_events=51200 libbeat.publisher.published_events=51200 publish.events=51200 registrar.states.update=51200 registrar.writes=25
+2017-06-27T23:51:53+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=30 libbeat.logstash.publish.read_bytes=186 libbeat.logstash.publish.write_bytes=1869566 libbeat.logstash.published_and_acked_events=63488 libbeat.publisher.published_events=61440 publish.events=63488 registrar.states.update=63488 registrar.writes=30
+2017-06-27T23:52:23+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=25 libbeat.logstash.publish.read_bytes=144 libbeat.logstash.publish.write_bytes=1556436 libbeat.logstash.published_and_acked_events=49152 libbeat.publisher.published_events=51200 publish.events=49152 registrar.states.update=49152 registrar.writes=25
+2017-06-27T23:52:53+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=15 libbeat.logstash.publish.read_bytes=90 libbeat.logstash.publish.write_bytes=932644 libbeat.logstash.published_and_acked_events=30720 libbeat.publisher.published_events=30720 publish.events=30720 registrar.states.update=30720 registrar.writes=15
+2017-06-27T23:53:23+09:00 INFO Non-zero metrics in the last 30s: libbeat.logstash.call_count.PublishEvents=18 libbeat.logstash.publish.read_bytes=114 libbeat.logstash.publish.write_bytes=1094410 libbeat.logstash.published_and_acked_events=37941 libbeat.publisher.published_events=35893 publish.events=37941 registrar.states.update=37941 registrar.writes=19
+2017-06-27T23:53:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-27T23:54:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-27T23:54:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-27T23:55:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-27T23:55:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-27T23:56:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-27T23:56:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-27T23:57:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-27T23:57:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-27T23:58:13+09:00 INFO File is inactive: /home/wshid/desktop/1702_ELK_08.csv. Closing because close_inactive of 5m0s reached.
+2017-06-27T23:58:23+09:00 INFO Non-zero metrics in the last 30s: filebeat.harvester.closed=1 filebeat.harvester.open_files=-1 filebeat.harvester.running=-1 publish.events=1 registrar.states.update=1 registrar.writes=1
+2017-06-27T23:58:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-27T23:59:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-27T23:59:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:00:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:00:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:01:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:01:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:02:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:02:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:03:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:03:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:04:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:04:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:05:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:05:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:06:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:06:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:07:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:07:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:08:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:08:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:09:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:09:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:10:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:10:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:11:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:11:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:12:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:12:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:13:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:13:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:14:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:14:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:15:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:15:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:16:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:16:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:17:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:17:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:18:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:18:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:19:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:19:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:20:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:20:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:21:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:21:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:22:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:22:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:23:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:23:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:24:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:24:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:25:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:25:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:26:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:26:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:27:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:27:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:28:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:28:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:29:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:29:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:30:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:30:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:31:23+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:31:53+09:00 INFO No non-zero metrics in the last 30s
+2017-06-28T00:32:03+09:00 INFO Stopping filebeat
+2017-06-28T00:32:03+09:00 INFO Stopping Crawler
+2017-06-28T00:32:03+09:00 INFO Stopping 1 prospectors
+2017-06-28T00:32:03+09:00 INFO Prospector channel stopped because beat is stopping.
+2017-06-28T00:32:03+09:00 INFO Prospector ticker stopped
+2017-06-28T00:32:03+09:00 INFO Stopping Prospector: 2054619975788661416
+2017-06-28T00:32:03+09:00 INFO Crawler stopped
+2017-06-28T00:32:03+09:00 INFO Stopping spooler
+2017-06-28T00:32:03+09:00 INFO Stopping Registrar
+2017-06-28T00:32:03+09:00 INFO Ending Registrar
+2017-06-28T00:32:03+09:00 INFO Total non-zero values:  filebeat.harvester.closed=1 filebeat.harvester.started=1 libbeat.logstash.call_count.PublishEvents=372 libbeat.logstash.publish.read_bytes=2316 libbeat.logstash.publish.write_bytes=23197809 libbeat.logstash.published_and_acked_events=760883 libbeat.publisher.published_events=760883 publish.events=760886 registrar.states.current=1 registrar.states.update=760886 registrar.writes=374
+2017-06-28T00:32:03+09:00 INFO Uptime: 49m39.719059337s
+2017-06-28T00:32:03+09:00 INFO filebeat stopped.
